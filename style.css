@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/*Login Page*/
+#main-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+}
+
+.login-form, .signup-form{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-section, .signup-form-section{
+  display: block;
+  box-shadow: 0px 4px 8px #b4b4b4;
+  border: none;
+  border-radius: 20px;
+  min-height: 60vh;
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+}
+
+.logo-content .logo {
+  width: 90px;
+  margin: 5px 0 30px 0;
+}
+
+.logo-content p {
+  font-size: 10px;
+  color: #BFBFBF;
+}
+
+form h1 {
+  color: #8053FF;
+  font-size: 41px;
+  margin-bottom: 15px;
+}
+
+.login-input label, .signup-input-field label{
+  color: #474747;
+  font-size: 18px;
+}
+
+.login-input input,
+.signup-input-field input{
+  width: 100%;
+  height: 40px;
+  background-color: #FFE1E1;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 15px;
+  color: black;
+}
+
+.password-and-forgetpassword {
+  display: flex;
+  justify-content: space-between;
+} 
+
+.password-and-forgetpassword a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #ADADAD;
+  cursor: pointer;
+}
+
+.login-btn, .signup-btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.btn {
+  position: relative;
+}
+
+.btn input {
+  border: none;
+  padding: 10px 50px 10px 15px;
+  color: white;
+  background-color: #8053FF;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn svg {
+  position: relative;
+  right: 40px;
+  top: 3px;
+  color: white;
+}
+
+.btn input:hover {
+  background-color: #5012fc;
+}
+
+.para-signuplink, .login-redirect {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.para-signuplink p, .login-redirect p{
+  color: #ADADAD;
+}
+
+.para-signuplink p a, .login-redirect p a{
+  text-decoration: none;
+  color: #8053FF;
+  cursor: pointer;
+}
+
+.student-image-section {
+  background-color: #D0BFFF;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px 0 0 30px;
+}
+
+/*Sign Up Page*/
+
+.signup-image-section {
+  border-radius: 0 30px 30px 0;
+}
+
+.signup-logo-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#link-select {
+  height: 30px;
+  border: 1px solid #ADADAD;
+  border-radius: 10px;
+  padding: 5px 15px;
+  outline: none;
+  font-size: 14px;
+  background-color: #FFE1E1;
+  color: #242424;
+  cursor: pointer;
+}
+
+/*Home Page*/
+svg {
+  color: black;
+}

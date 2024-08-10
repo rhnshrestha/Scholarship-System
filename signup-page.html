@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="SOnam Sherpa">
+  <meta name="description" content="This is the sign up page for Scholarship Quest Webpage">
+  <title>Sign Up - Scholarship Quest</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="icon" href="assests/logo.png" type="image/png">
+</head>
+<body>
+  <div id="main-container">
+    <div class="student-image-section signup-image-section">
+      <img src="assests/student-image.png" alt="3D image of the student">
+    </div>
+    <div class="signup-form">
+      <div class="signup-form-section">
+        <form action="signup.php" method="post">
+          <div class="logo-content signup-logo-content">
+            <img src="assests/logo.png" alt="Logo Image" width="200px" class="logo">
+            <select id="link-select" onchange="navigateToLink()">
+              <option value="">Sign Up as</option>
+              <option value="login-page.html">College</option>
+              <option value="signup-page.html">User/Admin</option>
+            </select>
+          </div>
+          <h1>Sign Up</h1>
+          <div class="signup-input-field">
+            <label for="f_name">First Name</label><br>
+            <input type="text" id="f_name" name="f_name" required aria-label="First Name">
+          </div>
+          <div class="signup-input-field">
+            <label for="s_name">Last Name</label><br>
+            <input type="text" id="s_name" name="s_name" required aria-label="Second Name">
+          </div>
+          <div class="signup-input-field">
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required aria-label="Email">
+          </div>
+          <div class="signup-input-field">
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" required aria-label="Password">
+          </div>
+          <div class="signup-input-field">
+            <label for="confirm-password">Confirm Password</label><br>
+            <input type="password" id="confirm-password" name="confirm-password" required aria-label="Confirm Password">
+          </div>
+          <div class="login-redirect">
+            <p>Already a member? <a href="login-page.html" title="Login">Log In</a></p>
+          </div>
+          <div class="signup-btn">
+            <div class="btn">
+              <input type="submit" value="Sign Up">
+              <svg class="icon icon-arrow-right"><use xlink:href="#icon-arrow-right"></use></svg>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="https://www.w3.org/2000/svg" style="opacity: 0; height:0 !important; position:absolute; display:none; ">
+    <defs>
+      <symbol id="icon-arrow-right" viewBox="0 0 20 20">
+        <path d="M16.172 9l-6.071-6.071 1.414-1.414 8.485 8.485-8.485 8.485-1.414-1.414 6.071-6.071h-16.172v-2z"></path>
+      </symbol>
+    </defs>
+  </svg>
+
+  <script src="script.js">
+
+  </script>
+</body>
+</html>

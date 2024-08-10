@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  #main-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-form, .student-image-section, .signup-form {
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .form-section, .signup-form-section {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .student-image-section {
+    display: none;
+  }
+}

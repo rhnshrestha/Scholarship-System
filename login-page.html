@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sonam Sherpa">
+  <meta name="description" content="Login page for student, college and admin">
+  <title>Log In -Scholarship Quest</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="icon" href="assests/logo.png" type="image/png">
+</head>
+<body>
+  <div id="main-container">
+    <div class="login-form">
+      <div class="form-section">
+        <div class="logo-content">
+          <img src="assests/logo.png" alt="Scholarship Quest Logo" class="logo">
+          <p>Welcome Back!!!</p>
+        </div>
+        <form action="login.php" method="post">
+          <h1>Log In</h1>
+          <div class="login-input">
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name ="email" required aria-label="Email">
+          </div> 
+          <div class="login-input">
+            <div class="password-and-forgetpassword">
+              <label for="password">Password</label>
+              <a href="changePassword">Forget Password?</a>
+            </div>
+            <input type="password" id="password" name ="password"  required aria-label="Password">
+          </div>
+          <div class="login-btn">
+            <div class="btn">
+              <input type="submit" value="LOG IN">
+              <svg class="icon icon-arrow-right"><use xlink:href="#icon-arrow-right"></use></svg>
+            </div>
+          </div>
+        </form>
+        <div class="para-signuplink">
+          <p>I don't have an account? <a href="signup-page.html">Sign Up</a></p>
+        </div>
+        <span id="js-error-message"></span>
+      </div>
+    </div>
+    <div class="student-image-section">
+      <img src="assests/student-image.png" alt="Login Page Image">
+    </div>
+  </div>
+
+  <svg xmlns="https://www.w3.org/2000/svg" style="opacity: 0; height:0 !important; position:absolute; display:none; ">
+    <defs>
+      <symbol id="icon-arrow-right" viewBox="0 0 20 20">
+        <path d="M16.172 9l-6.071-6.071 1.414-1.414 8.485 8.485-8.485 8.485-1.414-1.414 6.071-6.071h-16.172v-2z"></path>
+      </symbol>
+    </defs>
+  </svg>
+</body>
+</html>
