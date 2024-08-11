@@ -23,31 +23,16 @@
             <img src="assests/logo.png" alt="Logo Image" width="200px" class="logo">
             <select id="link-select" onchange="navigateToLink()">
               <option value="">Sign Up as</option>
-              <option value="login-page.html">College</option>
-              <option value="signup-page.html">User/Admin</option>
+              <option value="user">User</option>
+              <option value="college">College</option>
+              <option value="admin">Admin</option>
             </select>
           </div>
           <h1>Sign Up</h1>
-          <div class="signup-input-field">
-            <label for="f_name">First Name</label><br>
-            <input type="text" id="f_name" name="f_name" required aria-label="First Name">
+          <div class="usertype-form-selection">
+            <!-- form section written in Javascript -->
           </div>
-          <div class="signup-input-field">
-            <label for="s_name">Last Name</label><br>
-            <input type="text" id="s_name" name="s_name" required aria-label="Second Name">
-          </div>
-          <div class="signup-input-field">
-            <label for="email">Email</label><br>
-            <input type="email" id="email" name="email" required aria-label="Email">
-          </div>
-          <div class="signup-input-field">
-            <label for="password">Password</label><br>
-            <input type="password" id="password" name="password" required aria-label="Password">
-          </div>
-          <div class="signup-input-field">
-            <label for="confirm-password">Confirm Password</label><br>
-            <input type="password" id="confirm-password" name="confirm-password" required aria-label="Confirm Password">
-          </div>
+          <input type="hidden" name="user-type" id="user-type">
           <div class="login-redirect">
             <p>Already a member? <a href="login-page.html" title="Login">Log In</a></p>
           </div>
