@@ -12,9 +12,8 @@ function navigateToLink() {
   }
 }
 
-
+let signUpSection = document.querySelector('.usertype-form-selection');
 function userSignUpPage() {
-  let signUpSection = document.querySelector('.usertype-form-selection');
   signUpSection.innerHTML = `<div class="signup-input-field">
               <label for="f_name">First Name</label><br>
               <input type="text" id="f_name" name="f_name" required aria-label="First Name">
@@ -38,7 +37,6 @@ function userSignUpPage() {
 }
 
 function adminSignUpPage() {
-  let signUpSection = document.querySelector('.usertype-form-selection');
   signUpSection.innerHTML = `<div class="signup-input-field">
               <label for="f_name">First Name</label><br>
               <input type="text" id="f_name" name="f_name" required aria-label="First Name">
@@ -62,7 +60,6 @@ function adminSignUpPage() {
 }
 
 function collegeSignUpPage() {
-  let signUpSection = document.querySelector('.usertype-form-selection');
   signUpSection.innerHTML = `<div class="signup-input-field">
               <label for="c_name">College Name</label><br>
               <input type="text" id="c_name" name="c_name" required aria-label="College Name">
