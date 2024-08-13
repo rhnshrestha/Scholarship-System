@@ -20,4 +20,12 @@
   .student-image-section {
     display: none;
   }
+
+  .contact-info {
+    gap: 10px;
+  }
+
+  .phone span, .mail span {
+    display: none;
+  }
 }
