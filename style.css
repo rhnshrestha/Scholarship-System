@@ -169,7 +169,7 @@ form h1 {
 }
 
 /*Home Page*/
-svg {
+.upper-heading svg {
   color: #8053FF;
   text-align: center;
   font-size: 15px;
@@ -226,9 +226,119 @@ svg {
   text-decoration: underline;
 }
 
-.socials {
+.socials{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px
+  gap: 10px
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+}
+
+.main-heading {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFEDE1;
+}
+
+.main-heading svg {
+  color: #8053FF;
+}
+
+.homepage-logo {
+  margin-left: 70px;
+}
+
+.homepage-logo a {
+  display: flex;
+  align-items: center;
+}
+
+.homepage-logo img {
+  width: 55px;
+}
+
+.main-navbar .nav{
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  list-style: none;
+}
+
+.main-navbar ul li {
+  position: relative;
+}
+
+.main-navbar ul li a {
+  text-decoration: none;
+  color: #8053FF;
+  font-size: 14px;
+}
+
+.college-svg {
+  display: flex;
+  align-items: center;
+}
+
+.college-svg svg {
+  margin-left: 5px;
+  transition: transform 0.3s;
+}
+
+.college-svg:hover svg {
+  transform: rotate(180deg);
+}
+
+.college-dropdown {
+  display: none;
+  position: absolute;
+  top: 17px;
+  left: 10px;
+  background-color: #FFEDE1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.college-dropdown ul {
+  list-style: none;
+  margin: 0;
+}
+
+.college-dropdown ul li {
+  padding: 10px 20px;
+  width: 15vw;
+}
+
+.college-dropdown ul li:hover {
+  background-color: #fff9f5;
+  cursor: pointer;
+}
+
+.nav-college:hover .college-dropdown {
+  display: block;
+}
+
+.homepage-searchbar-profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 20px;
+}
+
+.homepage-searchbar-profile span {
+  display: flex;
+  align-items: center;
+  background-color: #F5F5F5;
+  padding: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.homepage-searchbar-profile span svg {
+  font-size: 15px;
 }
