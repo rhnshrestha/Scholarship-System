@@ -1,0 +1,58 @@
+Detail Scholarship Quest
+
+Users Dashboard:
+Home Page (User Dashboard):
+	Create: Users can create new scholarship applications.
+	Read: Users can view the scholarships they've applied for and the details of colleges.
+	Update: Users can update their application details if needed.
+	Delete: Users can delete an application if they decide not to pursue it.
+
+  Form Apply Page:
+	Create: Submitting the form will create a new scholarship application record.
+	Read: Users can view the details of their application (possibly on a separate page or within the dashboard).
+	Update: Users can edit their application before submission or during a certain period.
+	Delete: Users can withdraw their application, which would delete the record.
+
+   College Description Page:
+	Read: Users can view details about each college, including the scholarships they offer.
+
+College Dashboard:
+   Dashboard Page:
+	Read: Colleges can see how many students have applied for scholarships.
+
+   Details of Student Page:
+	Read: Colleges can view detailed information about each student who applied.
+	Update: Colleges can update student application statuses (e.g., shortlisted, pending, rejected).
+	Delete: Colleges may remove a student's application from their records if necessary.
+
+   Scholarship Information Page:
+	Create: Colleges can create new scholarship offerings.
+	Read: Colleges can view the list of scholarships they have offered.
+	Update: Colleges can edit the details of existing scholarships.
+	Delete: Colleges can remove a scholarship offer.
+
+Admin Dashboard:
+Dashboard Page:
+Read: Admins can view an overview of the system, including stats and reports.
+
+   Validating College Scholarship Page:
+	Read: Admins can view all scholarships provided by colleges.
+	Update: Admins can approve or reject scholarships, which updates their status.
+	Delete: Admins can remove invalid or unauthorized scholarship offers.
+
+   Validating Student Application Page:
+	Read: Admins can see the list of students who have applied for scholarships.
+	Update: Admins can approve or reject student applications, updating their status.
+	Delete: Admins can remove invalid or inappropriate applications.
+
+   Managing College List:
+	Create: Admins can add new colleges to the system.
+	Read: Admins can view the list of colleges.
+	Update: Admins can edit college details.
+	Delete: Admins can remove a college from the system.
+
+   Managing Student List:
+	Create: Admins can add new students (possibly in a scenario where a student needs manual entry).
+	Read: Admins can view the list of students.
+	Update: Admins can edit student details.
+	Delete: Admins can remove students from the system.

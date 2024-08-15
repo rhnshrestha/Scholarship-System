@@ -1,0 +1,25 @@
+Scholarship Quest 
+
+xLogin Page - only one design for all entity(users, admin, college)
+xSign Up Page - Changes dynamically for all three entity
+
+Users Dashboard
+xHomePage - specifically for the user (aka user dash board)
+inside home page users can apply for scholarship by providing information with a form - xformApplyPage
+also users can see the description of the college - Dynamically xcollegeDescription Page
+
+College Dashboard
+xDashBoardPage - where it mentions how many students apply for the scholarship 
+xdetailsOfStudent - inside the information  page
+xscholarshipInformationPage - a form where college will offer scholarship  
+
+Admin DashBoard
+xDashboardPage - only for admin
+xValidatingCollegeScholarship - accepts/rejects the scholariship provided by college
+xValidatingStudentWhoApplied - accepts the stdetns who has apply for scholarship
+xManagingCollegeList
+xManagingStudentList
+
+others page idea
+	- forget Password page
+	
