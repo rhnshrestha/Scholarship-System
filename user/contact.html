@@ -7,6 +7,7 @@
 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="form.css">
 
   <link rel="shortcut icon" href="assests/logo.png" type="image/x-icon">
 </head>
@@ -72,6 +73,30 @@
     </div>
 
     <div class="homepage-main-container">
+      <h2 style="text-align: center; margin-top: 10px;" >Fill the info and submit</h2>
+      <form action="#" method="post">
+
+          <label for="f-name">First Name:</label>
+          <input type="text" id="f-name" name="f-name" placeholder="Enter first name..." required>
+  
+          <label for="l-name">Last name:</label>
+          <input type="text" id="l-name" name="l-name" placeholder="Enter last name..." required>
+  
+          <label for="contact">Contact Number:</label>
+          <input type="text" id="contact" name="contact" placeholder="Enter contact number..." required>
+  
+          <label for="gmail">Gmail:</label>
+          <input type="email" id="gmail" name="gmail" placeholder="Enter Gmail..." required>
+  
+          <label for="query">Any Queries ? </label>
+          <textarea id="query" name="query" rows="4" placeholder="Ask here..." required></textarea>
+
+
+  
+          <input type="submit" value="Submit">
+      </form>
+
+
       
     </div>
     <footer>
